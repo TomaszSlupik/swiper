@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: grey;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.boximgscrolling {
+    position: relative;
+    max-width: 100%;
+}
+
+
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 290px;
+    height: 290px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, #0006);
+    box-shadow: 5px 5px 10px black;
+}
+
+.imgOne, .imgTwo, .imgThree, .imgFour {
+    background-position: center;
+    background-size: cover;
+    width: 290px;
+    height: 290px;
+}
+
+.imgOne {
+    background-image: url(../IMG/mountain.jpg);
+}
+
+.imgTwo {
+    background-image: url(../IMG/mountains2.jpg);
+}
+
+.imgThree {
+    background-image: url(../IMG/mountains3.jpg);
+}
+
+.imgFour {
+    background-image: url(../IMG/mountains4.jpg);
+}
